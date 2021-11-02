@@ -2,4 +2,4 @@
 
 My solutions for 15 Vanilla Javascript Projects.
 
-[Original repo link](https://furip0x.github.io/react_redux_toolkit_todo_app/) :point_left:
+[Original repo link](https://github.com/john-smilga/javascript-basic-projects) :point_left:
