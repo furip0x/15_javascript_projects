@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Person</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css"
+      integrity="sha512-c93ifPoTvMdEJH/rKIcBx//AL1znq9+4/RmMGafI/vnTFe/dKwnn1uoeszE2zJBQTS1Ck5CqSBE+34ng2PthJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <div class="block bcg-black"></div>
+    <div class="block">
+      <div class="container">
+        <img
+          src="https://via.placeholder.com/138/2c2e31/ffffff"
+          class="user-img"
+          alt="user"
+        />
+        <p class="user-title"></p>
+        <p class="user-value">-</p>
+        <div class="values-list">
+          <!-- single icon -->
+          <button class="icon active" data-label="name">
+            <span class="far fa-user"></span>
+          </button>
+          <!-- end of icon -->
+          <!-- single icon -->
+          <button class="icon" data-label="email">
+            <span class="far fa-envelope-open"></span>
+          </button>
+          <!-- end of icon -->
+          <!-- single icon -->
+          <button class="icon" data-label="age">
+            <span class="far fa-calendar-times"></span>
+          </button>
+          <!-- end of icon -->
+          <!-- single icon -->
+          <button class="icon" data-label="street">
+            <span class="far fa-map"></span>
+          </button>
+          <!-- end of icon -->
+          <!-- single icon -->
+          <button class="icon" data-label="phone">
+            <span class="fas fa-phone"></span>
+          </button>
+          <!-- end of icon -->
+          <!-- single icon -->
+          <button class="icon" data-label="password">
+            <span class="fas fa-user-lock"></span>
+          </button>
+          <!-- end of icon -->
+        </div>
+        <button class="btn" type="button">random user</button>
+      </div>
+    </div>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
